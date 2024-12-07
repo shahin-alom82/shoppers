@@ -1,4 +1,4 @@
-import { categoryfive, categoryfour, categoryone, categoryseven, categorysix, categorythree, categorytwo } from "../../assets"
+import { all, categoryfive, categoryfour, categoryone, categoryseven, categorysix, categorythree, categorytwo } from "../../assets"
 
 
 // navLink
@@ -19,33 +19,46 @@ export const navLink = [
 
 export const popular = [
       {
+            img: all,
+            title: "All Product",
+            path: 'all'
+      },
+      {
             img: categorytwo,
-            title: "Food & Grosery"
+            title: "Food & Grosery",
+            path: 'foodgrocery'
       },
       {
             img: categoryfive,
-            title: "Electronics"
+            title: "Electronics",
+            path: 'electric'
       },
       {
             img: categoryfour,
-            title: "Organic Food"
+            title: "Organic Food",
+            path: 'organicfood'
       },
       {
             img: categoryone,
-            title: "Personal Care"
+            title: "Personal Care",
+            path: 'personalcare'
       },
       {
             img: categorysix,
-            title: "Dairy & Eggs"
+            title: "Dairy & Eggs",
+            path: 'dairyeggs'
       },
       {
             img: categoryseven,
-            title: "Baby Formula"
+            title: "Baby Formula",
+            path: 'babyformula'
       },
       {
             img: categorythree,
-            title: "Skin Care"
+            title: "Skin Care",
+            path: 'skincare'
       },
+
 
 ]
 

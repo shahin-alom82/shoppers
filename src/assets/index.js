@@ -10,6 +10,7 @@ import categorysix from '../assets/categorysix.jpg'
 import categoryseven from '../assets/categoryseven.jpg'
 import bannerimgone from '../assets/ad-min.png'
 import bannerimgtwo from '../assets/featured1-min.jpg'
+import all from '../assets/alllogo.webp'
 import bannerimgthree from '../assets/featured2-min.jpg'
 
 export {
@@ -25,5 +26,6 @@ export {
       categoryseven,
       bannerimgone,
       bannerimgtwo,
-      bannerimgthree
+      bannerimgthree,
+      all
 }

@@ -8,7 +8,7 @@ import { BsGift } from "react-icons/bs";
 const BottomBanner = () => {
       return (
             <div className="mt-8">
-                  <Container >
+                  <Container>
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 py-10 lg:gap-0 gap-3">
                               <div className="flex items-center gap-4 lg:border-t lg:border-l lg:border-b border-gray-300 py-4 px-4 w-72">
                                     <HiOutlineRocketLaunch size={40} className="text-lightOrange" />

@@ -12,6 +12,8 @@ import bannerimgone from '../assets/ad-min.png'
 import bannerimgtwo from '../assets/featured1-min.jpg'
 import all from '../assets/alllogo.webp'
 import bannerimgthree from '../assets/featured2-min.jpg'
+import contact from '../assets/contact.jpg'
+import about from '../assets/man.jpg'
 
 export {
       bannerone,
@@ -27,5 +29,7 @@ export {
       bannerimgone,
       bannerimgtwo,
       bannerimgthree,
-      all
+      all,
+      contact,
+      about
 }

@@ -7,7 +7,7 @@ const BottomHeader = () => {
             <div className="py-2 bg-[#112240] text-white">
                   <Container className={"flex flex-col lg:flex-row lg:items-center lg:gap-32 gap-4"}>
                         <h1 className="flex items-center gap-2 uppercase lg:text-[18px] tracking-wide"><MdOutlineMenu size={25} /> <span className="font-semibold">Shop By Category</span></h1>
-                        <div className="flex items-center gap-4">
+                        <div className="flex items-center lg:gap-4 gap-2">
                               {
                                     navLink.map((item, index) => (
                                           <div key={index}>

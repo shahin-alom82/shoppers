@@ -6,6 +6,7 @@
             "description": "Clariss Extra Virgin Olive Oil (1L) is a premium, cold-pressed oil made from the finest olives, ideal for cooking, dressing, and skincare. Its rich flavor and high nutritional value make it perfect for a healthy lifestyle.",
             "price": 17,
             "discountPercentage": 2,
+            "rating": 3,
             "category": "organicfood"
       },
       {
@@ -15,6 +16,7 @@
             "description": "Figaro Pitted Black Olives are a perfect addition to salads, pizzas, and Mediterranean dishes. Packed with flavor, these 340g olives are ready to elevate your meals.",
             "price": 27,
             "discountPercentage": 4,
+            "rating": 4,
             "category": "organicfood"
       },
       {
@@ -24,6 +26,7 @@
             "description": "Lotkon (Baccaurea Motleyana) is a tangy and juicy tropical fruit, perfect for snacking or making refreshing drinks. Available in ±50g and 1000g packs to suit your needs.",
             "price": 19,
             "discountPercentage": 2,
+            "rating": 3,
             "category": "organicfood"
       },
       {
@@ -33,6 +36,7 @@
             "description": "Kath Badam (Cashew Nuts) are crunchy, nutritious, and perfect for snacking or adding to your favorite recipes. Enjoy premium-quality 1kg packs for a healthy lifestyle.",
             "price": 60,
             "discountPercentage": 4,
+            "rating": 2,
             "category": "organicfood"
       },
       {
@@ -42,6 +46,7 @@
             "description": "Olio Orolio Olive Oil is a premium-quality oil, perfect for cooking, dressing, and marinating. Enjoy the rich taste and health benefits in a convenient 3L pack.",
             "price": 39,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "organicfood"
       },
       {
@@ -51,6 +56,7 @@
             "description": "Borges Pomace Olive Oil, in a 500ml pack, is perfect for everyday cooking with its light flavor and high heat tolerance. A healthy choice for your favorite dishes.",
             "price": 7,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "organicfood"
       },
       {
@@ -60,6 +66,7 @@
             "description": "Olio Orolio Olive Oil, in a 1L bottle, offers rich flavor and health benefits for cooking, marinating, and dressing. A perfect choice for a balanced lifestyle.",
             "price": 14,
             "discountPercentage": 2,
+            "rating": 2,
             "category": "organicfood"
       },
       {
@@ -69,6 +76,7 @@
             "description": "Radhuni Pure Mustard Oil, in a 500ml bottle, brings a rich aroma and authentic flavor to your cooking. Perfect for traditional recipes and everyday use.",
             "price": 17,
             "discountPercentage": 2,
+            "rating": 4,
             "category": "organicfood"
       },
       {
@@ -78,6 +86,7 @@
             "description": "Ambassador Spanish Olive Oil, in a 300ml can, delivers premium quality and a mild flavor, perfect for cooking and dressings. Experience authentic Spanish excellence in every drop.",
             "price": 7,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "organicfood"
       },
       {
@@ -87,6 +96,7 @@
             "description": "Detox Organic Apple Cider Vinegar infused with Ginger & Turmeric, enriched with 'The Mother,' supports digestion and boosts immunity. A natural choice for a healthier lifestyle.",
             "price": 12,
             "discountPercentage": 1,
+            "rating": 2,
             "category": "organicfood"
       },
       {
@@ -96,6 +106,7 @@
             "description": "Olio Orolio Extra Virgin Olive Oil, in a 3L pack, offers rich flavor and superior quality for cooking, dressing, and marinating. A healthy choice for gourmet meals.",
             "price": 54,
             "discountPercentage": 3,
+            "rating": 5,
             "category": "organicfood"
       },
       {
@@ -105,6 +116,7 @@
             "description": "Fresh Fortified Soyabean Oil, in a 1L poly pack, ensures purity and essential nutrients for healthy cooking. Ideal for frying and everyday meal preparation.",
             "price": 17,
             "discountPercentage": 1,
+            "rating": 2,
             "category": "organicfood"
       },
       {
@@ -114,6 +126,7 @@
             "description": "Nido Fortigrow Full Cream Milk Powder, in a 2.5kg tin, provides essential nutrients for growth and development. Enjoy its rich, creamy taste for a healthy family.",
             "price": 32,
             "discountPercentage": 4,
+            "rating": 3,
             "category": "foodgrocery"
       },
       {
@@ -123,6 +136,7 @@
             "description": "Ruchi Tomato Ketchup, in a 350g bottle, offers a deliciously tangy and sweet flavor. Perfect for adding zest to your snacks, sandwiches, and meals.",
             "price": 12,
             "discountPercentage": 1,
+            "rating": 2,
             "category": "foodgrocery"
       },
       {
@@ -132,6 +146,7 @@
             "description": "Kazi & Kazi Black Tea, in an 80g pack with 40 tea bags, offers a rich and robust flavor for a refreshing cup of tea. Enjoy the perfect blend of quality and taste in every sip.",
             "price": 13,
             "discountPercentage": 1,
+            "rating": 4,
             "category": "foodgrocery"
       },
       {
@@ -141,6 +156,7 @@
             "description": "Green Apples, available in ±50g and 1kg packs, are crisp, tangy, and packed with nutrients. Perfect for snacking, baking, or adding freshness to your dishes.",
             "price": 4,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "foodgrocery"
       },
       {
@@ -150,6 +166,7 @@
             "description": "Paka Pape (Thai Ripe Papaya), available in ±50g and 1kg packs, is sweet, juicy, and loaded with nutrients. Perfect for a healthy snack or dessert ingredient.",
             "price": 2,
             "discountPercentage": 1,
+            "rating": 5,
             "category": "foodgrocery"
       },
       {
@@ -159,6 +176,7 @@
             "description": "Seylon Gold Tea, in a 500g pack, offers a rich aroma and bold flavor for a refreshing tea experience. Perfect for everyday enjoyment or special moments.",
             "price": 2,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "foodgrocery"
       },
       {
@@ -168,6 +186,7 @@
             "description": "Nestlé NAN AL 110 Formula Milk Powder (0-6 M+) is specially designed for infants, providing essential nutrients for healthy growth and development. It supports digestive health with a unique blend of probiotics and prebiotics, ensuring optimal nutrition from birth.",
             "price": 15,
             "discountPercentage": 1,
+            "rating": 5,
             "category": "babyformula"
       },
       {
@@ -177,6 +196,7 @@
             "description": "Biomil 2 Milk (6-12 months) Tin 1 kg is a nutritious infant formula that supports healthy growth and development for babies in the 6-12 month age range. It contains essential vitamins, minerals, and DHA to promote brain and immune system health.",
             "price": 18,
             "discountPercentage": 2,
+            "rating": 2,
             "category": "babyformula"
       },
       {
@@ -186,6 +206,7 @@
             "description": "Eldobaby 2 Follow Up Tin (6-12 Months) 400 gm is a specially formulated infant milk for babies aged 6-12 months, providing essential nutrients for growth and development. It supports healthy digestion, immunity, and brain development with added DHA and vitamins.",
             "price": 9,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "babyformula"
       },
       {
@@ -195,6 +216,7 @@
             "description": "Junior Horlicks Health and Nutrition Drink BIB 500 gm is a nutritious drink designed for children aged 2 years and above, supporting growth, immunity, and cognitive development. It contains essential vitamins, minerals, and DHA to boost overall health and well-being.",
             "price": 5,
             "discountPercentage": 1,
+            "rating": 4,
             "category": "babyformula"
       },
       {
@@ -204,6 +226,7 @@
             "description": "Marks Young Star (16-40 years) 400 gm is a health and nutrition drink designed to support energy, immunity, and overall well-being for individuals aged 16 to 40. It is enriched with essential vitamins, minerals, and proteins to promote strength and vitality.",
             "price": 5,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "babyformula"
       },
       {
@@ -213,6 +236,7 @@
             "description": "Nestlé Nan Optipro 2 Formula Milk Powder (6 M+) 800 gm is designed for babies aged 6 months and above, offering complete nutrition to support growth and development. It contains OPTIPRO protein technology and essential vitamins to promote healthy immunity and brain development.",
             "price": 24,
             "discountPercentage": 2,
+            "rating": 3,
             "category": "babyformula"
       },
       {
@@ -222,6 +246,7 @@
             "description": "Nestlé AL 110 Formula Milk Powder 400 gm (Tin) is specially designed for infants aged 0-6 months, providing balanced nutrition for healthy growth and development. It contains essential nutrients, including probiotics, to support digestive health and immunity.",
             "price": 14,
             "discountPercentage": 2,
+            "rating": 4,
             "category": "babyformula"
       },
       {
@@ -231,6 +256,7 @@
             "description": "Nestlé NAN 3 Follow Up Formula with Optipro 800 gm is designed for toddlers aged 1 year and above, providing optimal nutrition to support growth and development. It contains OPTIPRO protein, DHA, and essential vitamins to boost immunity and cognitive function.",
             "price": 36,
             "discountPercentage": 2,
+            "rating": 5,
             "category": "babyformula"
       },
       {
@@ -240,6 +266,7 @@
             "description": "Nestlé Lactogen 2 is a follow-up formula for babies aged 6 months and above, enriched with iron to support growth and development. It provides essential nutrients for a healthy transition to solid foods.",
             "price": 7,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "babyformula"
       },
       {
@@ -249,6 +276,7 @@
             "description": "Nestlé Lactogen 1 is an infant formula designed for babies aged 0-6 months, providing essential nutrients for healthy growth. It supports digestive comfort with its gentle and nourishing formula.",
             "price": 7,
             "discountPercentage": 1,
+            "rating": 2,
             "category": "babyformula"
       },
       {
@@ -258,6 +286,7 @@
             "description": "Mother's Smile Prima 1 is a premium formula milk for infants aged 0-6 months, offering essential nutrients for healthy development. Its gentle formulation supports growth and digestive comfort.",
             "price": 8,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "babyformula"
       },
       {
@@ -267,6 +296,7 @@
             "description": "Lactogen 1 400gm is an infant formula for babies aged 0-6 months, enriched with nutrients for healthy growth. Its gentle blend supports easy digestion and overall development.",
             "price": 9,
             "discountPercentage": 1,
+            "rating": 2,
             "category": "babyformula"
       },
       {
@@ -276,6 +306,7 @@
             "description": "Vaseline Intensive Care Deep Restore Lotion 400ml deeply moisturizes to heal dry skin, leaving it soft and smooth. Enriched with Vaseline Jelly, it provides long-lasting hydration.",
             "price": 9,
             "discountPercentage": 1,
+            "rating": 4,
             "category": "skincare"
       },
       {
@@ -285,6 +316,7 @@
             "description": "Vaseline Intensive Care Deep Restore Lotion 400ml in Bangladesh offers deep hydration for dry skin, restoring softness and smoothness. Enriched with Vaseline Jelly, it ensures long-lasting moisture.",
             "price": 5,
             "discountPercentage": 1,
+            "rating": 5,
             "category": "skincare"
       },
       {
@@ -294,6 +326,7 @@
             "description": "Lafz Shea Butter Body Lotion 250ml in Bangladesh deeply nourishes and hydrates dry skin, leaving it soft and smooth. Enriched with shea butter, it provides long-lasting moisture and care.",
             "price": 4,
             "discountPercentage": 1,
+            "rating": 4,
             "category": "skincare"
       },
       {
@@ -303,6 +336,7 @@
             "description": "He Ruler Perfume Body Spray 150ml offers a bold and long-lasting fragrance, perfect for all-day freshness. Its invigorating scent keeps you confident and revitalized.",
             "price": 4,
             "discountPercentage": 1,
+            "rating": 4,
             "category": "skincare"
       },
       {
@@ -312,6 +346,7 @@
             "description": "Nivea Deodorant Fresh Natural 150ml provides long-lasting freshness with a light, natural fragrance. Its gentle formula offers reliable 48-hour protection without irritation.",
             "price": 5,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "skincare"
       },
       {
@@ -321,6 +356,7 @@
             "description": "Nivea Deodorant Fresh Active Men 150ml delivers 48-hour protection with a refreshing masculine scent. Its gentle formula keeps you feeling fresh and confident all day.",
             "price": 5,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "skincare"
       },
       {
@@ -330,6 +366,7 @@
             "description": "Fogg Royal Fragrance Body Spray 120ml offers an elegant, long-lasting scent that keeps you fresh throughout the day. Its rich fragrance adds a touch of sophistication and confidence.",
             "price": 5,
             "discountPercentage": 1,
+            "rating": 4,
             "category": "skincare"
       },
       {
@@ -339,6 +376,7 @@
             "description": "Wild Stone Perfume Body Spray Copper 120ml features a bold, masculine fragrance that lasts all day. Its intense scent combines woody and spicy notes for a captivating aroma.",
             "price": 5,
             "discountPercentage": 1,
+            "rating": 2,
             "category": "skincare"
       },
       {
@@ -348,6 +386,7 @@
             "description": "Tresemme Botanique Nourish and Replenish Shampoo 580ml locally nourishes and replenishes dry hair, leaving it soft and hydrated. Infused with natural ingredients, it restores the hair's natural moisture balance.",
             "price": 8,
             "discountPercentage": 1,
+            "rating": 4,
             "category": "skincare"
       },
       {
@@ -357,6 +396,7 @@
             "description": "Ice Cool Prickly Heat Powder 100gm provides instant relief from heat rashes and discomfort. Its cooling formula soothes the skin, keeping you fresh and dry throughout the day.",
             "price": 2,
             "discountPercentage": 1,
+            "rating": 5,
             "category": "skincare"
       },
       {
@@ -366,6 +406,7 @@
             "description": "Nivea Men Dry Impact Deodorant 50ml offers 48-hour protection against sweat and body odor. Its powerful formula keeps you feeling fresh and dry, with a subtle masculine scent.",
             "price": 3,
             "discountPercentage": 1,
+            "rating": 2,
             "category": "skincare"
       },
       {
@@ -375,6 +416,7 @@
             "description": "GPT 4o Mini Arla Dano Power Full Cream Milk Powder (500 gm) is a rich source of essential nutrients, including protein, calcium, and vitamins B2, B12, A, and D. It supports a healthy and active lifestyle for the whole family.",
             "price": 4,
             "discountPercentage": 1,
+            "rating": 2,
             "category": "dairyeggs"
       },
       {
@@ -384,6 +426,7 @@
             "description": "Starship Full Cream Milk Powder (1 kg) offers a creamy taste and high nutritional value, making it an excellent choice for cooking and baking. Rich in calcium and protein, it is ideal for enhancing the flavor and nutrition of your favorite dishes.",
             "price": 7,
             "discountPercentage": 1,
+            "rating": 2,
             "category": "dairyeggs"
       },
       {
@@ -393,6 +436,7 @@
             "description": "GPT 4o Mini Fresh Instant Full Cream Milk Powder (1000 gm) provides a convenient and creamy alternative to liquid milk, perfect for a variety of recipes and beverages. It is rich in essential nutrients, ensuring a delicious and nutritious addition to your diet.",
             "price": 9,
             "discountPercentage": 2,
+            "rating": 3,
             "category": "dairyeggs"
       },
       {
@@ -402,6 +446,7 @@
             "description": "Danish Condensed Filled Milk 397 gm is a rich and creamy milk product, perfect for desserts, tea, and coffee. It offers a smooth texture and delightful taste to enhance your recipes.",
             "price": 2,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "dairyeggs"
       },
       {
@@ -411,6 +456,7 @@
             "description": "Red Cow Butter Oil 400 gm is a premium cooking essential made from pure milk fat. Ideal for frying, baking, and adding a rich buttery flavor to your dishes.",
             "price": 7,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "dairyeggs"
       },
       {
@@ -420,6 +466,7 @@
             "description": "Axe Black Pera Body Spray 150ml, imported from Argentina, offers a subtle and refreshing pear fragrance. Perfect for all-day freshness and a confident vibe.",
             "price": 4,
             "discountPercentage": 1,
+            "rating": 4,
             "category": "personalcare"
       },
       {
@@ -429,6 +476,7 @@
             "description": "Veet Hair Removal Cream for Normal Skin 50gm effectively removes hair, leaving skin smooth and moisturized. Enriched with natural ingredients for gentle care.",
             "price": 2,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "personalcare"
       },
       {
@@ -438,6 +486,7 @@
             "description": "Crème21 All Day Cream with Pro Vitamin B5 150ml deeply nourishes and hydrates your skin. Perfect for daily use, it leaves your skin soft and healthy.",
             "price": 7,
             "discountPercentage": 1,
+            "rating": 4,
             "category": "personalcare"
       },
       {
@@ -447,6 +496,7 @@
             "description": "ACI Savlon Liquid Antiseptic 1000ml provides effective protection against germs and bacteria. Ideal for wound care, disinfection, and personal hygiene.",
             "price": 3,
             "discountPercentage": 1,
+            "rating": 5,
             "category": "personalcare"
       },
       {
@@ -456,6 +506,7 @@
             "description": "Dettol Handwash Re-Energize Liquid Refill 750ml ensures 99.9% germ protection while leaving your hands feeling fresh. Infused with zesty orange for a revitalizing clean.",
             "price": 3,
             "discountPercentage": 1,
+            "rating": 4,
             "category": "personalcare"
       },
       {
@@ -465,6 +516,7 @@
             "description": "Lifebuoy Handwash Care Refill 170ml provides trusted germ protection with a gentle formula. Keeps hands clean, soft, and moisturized after every wash.",
             "price": 2,
             "discountPercentage": 1,
+            "rating": 5,
             "category": "personalcare"
       },
       {
@@ -474,6 +526,7 @@
             "description": "Lifebuoy Handwash Total Refill 170ml ensures 99.9% germ protection with its advanced formula. Keeps your hands hygienically clean and refreshed every day.",
             "price": 2,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "personalcare"
       },
       {
@@ -483,6 +536,7 @@
             "description": "মসকুইটো কিলার ল্যাম্প মশা ও মাছি থেকে রক্ষা করতে কার্যকর একটি ডিভাইস। নিরবচ্ছিন্ন আলো দিয়ে নিরাপদ ও পরিবেশবান্ধব উপায়ে কীটপতঙ্গ ধ্বংস করে।",
             "price": 7,
             "discountPercentage": 1,
+            "rating": 2,
             "category": "electric"
       },
       {
@@ -492,6 +546,7 @@
             "description": "Kiam Electric Kettle BL002 1.8L features a sleek design with a large capacity for quick boiling. It ensures fast and efficient heating with an automatic shut-off for safety.",
             "price": 8,
             "discountPercentage": 1,
+            "rating": 3,
             "category": "electric"
       },
       {
@@ -501,6 +556,7 @@
             "description": "M90 TWS ANC Pure Bass Bluetooth Gaming Dual Earbuds deliver immersive sound with active noise cancellation. Designed for gaming, they offer superior audio quality and a comfortable fit.",
             "price": 85,
             "discountPercentage": 5,
+            "rating": 3,
             "category": "electric"
       },
       {
@@ -510,6 +566,7 @@
             "description": "AverMedia AM310 USB Condenser Microphone delivers crystal-clear audio for streaming, podcasting, and recording. Easy to use with plug-and-play connectivity for professional sound quality.",
             "price": 100,
             "discountPercentage": 5,
+            "rating": 4,
             "category": "electric"
       },
       {
@@ -519,6 +576,7 @@
             "description": "BOYA BY-PM500 USB Microphone offers high-quality audio for recording, streaming, and podcasting. Features dual polar patterns and plug-and-play convenience for versatile use.",
             "price": 78,
             "discountPercentage": 5,
+            "rating": 3,
             "category": "electric"
       },
       {
@@ -528,6 +586,7 @@
             "description": "BOYA BY-PM700G USB Microphone delivers studio-quality sound for recording, streaming, and gaming. Equipped with multiple polar patterns for versatile audio capture.",
             "price": 24,
             "discountPercentage": 2,
+            "rating": 2,
             "category": "electric"
       },
       {
@@ -537,6 +596,7 @@
             "description": "HAVIT HV-PB8805 10000mAh Power Bank offers fast charging with QC3.0 technology and a high conversion rate. Compact and reliable for powering your devices on the go.",
             "price": 21,
             "discountPercentage": 2,
+            "rating": 2,
             "category": "electric"
       },
       {
@@ -546,6 +606,7 @@
             "description": "Philips Rice Cooker 1.8L (HL1663/00) ensures perfectly cooked rice with its advanced technology. Durable and easy to use, ideal for daily meals and versatile cooking.",
             "price": 54,
             "discountPercentage": 2,
+            "rating": 3,
             "category": "electric"
       },
       {
@@ -555,6 +616,7 @@
             "description": "Sokany SK-1653 Electric Heater provides efficient heating with a sleek, compact design. Perfect for keeping your space warm and cozy during cold weather.",
             "price": 23,
             "discountPercentage": 2,
+            "rating": 5,
             "category": "electric"
       }
 ]

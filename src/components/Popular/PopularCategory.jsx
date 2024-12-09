@@ -3,7 +3,10 @@ import { popular } from "../constants";
 import Container from "../Container";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import PriceFormate from "../PriceFormate";
+import { FaStar } from "react-icons/fa";
+import AddToCartButton from "../AddToCartButton";
+import PriceContainer from "../PriceContainer";
 
 const PopularCategory = () => {
 
@@ -51,7 +54,6 @@ const PopularCategory = () => {
 
                                     ))
                               }
-
                         </div>
                         <h1 className="text-sm md:text-2xl tracking-wide text-gray-700 text-center lg:text-left mt-6">
                               Browse through the products specialist.
@@ -61,19 +63,27 @@ const PopularCategory = () => {
                               {
                                     filteredProducts.map((item) =>
                                           <div key={item?.id}>
-                                                <div className="border-t border-l border-r border-gray-300 ">
+                                                <div className="border-t border-l border-r border-gray-300 relative">
                                                       <Link to={`/details/${item.id}`}>
-                                                            <img className="md:h-56 items-center justify-center mx-auto py-3" src={item?.image} alt="" />
+                                                            <img className="md:h-56 items-center justify-center mx-auto py-3 hover:scale-110 duration-300 " src={item?.image} alt="" />
                                                       </Link>
                                                       <div className="py-2 px-4 ">
                                                             <h1 className="md:text-xl text-sm tracking-wide h-8">{item?.name.slice(0, 20)}</h1>
                                                             <div>
-                                                                  <p className="mt-2">${item?.price}</p>
+                                                                  <PriceContainer className="mt-2" item={item} />
+                                                                  {/* <PriceFormate  amount={item?.price} /> */}
                                                             </div>
 
                                                       </div>
+                                                      <div className="flex items-center mt-2 absolute top-0 right-2">
+                                                            {Array.from({ length: item.rating }, (index) => (
+                                                                  <span key={index} className="text-orange-500">
+                                                                        <FaStar size={18} />
+                                                                  </span>
+                                                            ))}
+                                                      </div>
                                                 </div>
-                                                <button className=" bg-[#112240]  rounded-b-lg  text-white text-sm tracking-wide w-full py-2">Add To Cart</button>
+                                                <AddToCartButton item={item} />
                                           </div>
                                     )
                               }

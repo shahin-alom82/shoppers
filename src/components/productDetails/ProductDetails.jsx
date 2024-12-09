@@ -2,6 +2,9 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { IoCheckmarkSharp } from "react-icons/io5";
 import Container from "../Container";
+import AddToCartButton from "../AddToCartButton";
+import PriceContainer from "../PriceContainer";
+import { FaStar } from "react-icons/fa6";
 
 const ProductDetails = () => {
       const { id } = useParams();
@@ -58,13 +61,20 @@ const ProductDetails = () => {
                               </div>
 
                               {/* Product Details */}
-                              <div className="lg:w-4/6">
-                                    <h1 className="lg:text-2xl text-[22px] tracking-wide font-medium text-gray-800">
+                              <div className="lg:w-4/6 mt-4">
+                                    <h1 className="lg:text-3xl text-[20px] tracking-wide font-medium text-gray-800">
                                           {product.name}
                                     </h1>
                                     <p className="mt-2 text-gray-700 lg:text-[16px] text-[14px]">
                                           {product.description}
                                     </p>
+                                    <div className="flex items-center mt-2  top-0 right-2">
+                                          {Array.from({ length: product.rating }, (index) => (
+                                                <span key={index} className="text-orange-500">
+                                                      <FaStar size={18} />
+                                                </span>
+                                          ))}
+                                    </div>
                                     <p className="flex items-center gap-2 text-gray-600 mt-2">
                                           <IoCheckmarkSharp className="text-green-700" />
                                           In Stock
@@ -72,6 +82,8 @@ const ProductDetails = () => {
                                     <div className="flex items-center gap-10 mt-1">
                                           <h1 className="text-gray-600 text-[14px]">Free Shipping</h1>
                                     </div>
+                                    <PriceContainer item={product} />
+                                    <AddToCartButton className={"lg:w-[135px] w-[148px] rounded-lg mt-4"} item={product} />
                               </div>
                         </div>
                   </Container>

@@ -7,9 +7,10 @@ import { FaUserLarge } from "react-icons/fa6";
 import { BsCartCheck } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import BottomHeader from "./BottomHeader";
+import { useSelector } from "react-redux";
 
 const Header = () => {
-
+      const { products } = useSelector((state) => state.shop)
       return (
             <div className="sticky z-50 top-0 bg-white">
                   <header className="border-b border-gray-300 py-5 ">
@@ -31,12 +32,14 @@ const Header = () => {
                                                 <h1>Login / Register</h1>
                                           </div>
                                     </div>
-                                    <div className="relative">
-                                          <Link to={"/cart"}>
+                                    <Link to={"/cart"}>
+                                          <div className="relative">
+
                                                 <span className="text-gray-600"><BsCartCheck size={30} /></span>
-                                          </Link>
-                                          <span className="absolute bottom-6 left-2.5 text-gray-700">0</span>
-                                    </div>
+
+                                                <span className="absolute bottom-6 left-2.5 text-gray-700">{products?.length}</span>
+                                          </div>
+                                    </Link>
                               </div>
                               {/* Menu Bar Section */}
                               <div>

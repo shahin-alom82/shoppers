@@ -14,6 +14,7 @@ import all from '../assets/alllogo.webp'
 import bannerimgthree from '../assets/featured2-min.jpg'
 import contact from '../assets/contact.jpg'
 import about from '../assets/man.jpg'
+import empty from '../assets/emptyCart.png'
 
 export {
       bannerone,
@@ -31,5 +32,6 @@ export {
       bannerimgthree,
       all,
       contact,
-      about
+      about,
+      empty
 }

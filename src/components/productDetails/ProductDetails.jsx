@@ -61,7 +61,7 @@ const ProductDetails = () => {
                               </div>
 
                               {/* Product Details */}
-                              <div className="lg:w-4/6 mt-4">
+                              <div className="lg:w-4/6 mt-2">
                                     <h1 className="lg:text-3xl text-[20px] tracking-wide font-medium text-gray-800">
                                           {product.name}
                                     </h1>

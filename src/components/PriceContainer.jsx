@@ -24,16 +24,16 @@ const PriceContainer = ({ item, className }) => {
             item.price + (item?.discountPercentage * item?.price) / 100
 
       return (
-            <div className={twMerge('flex items-center gap-3 mt-2', className)}>
+            <div className={twMerge('flex items-center gap-3', className)}>
                   {/* Original price with discount */}
                   <PriceFormate
                         amount={regularPrice}
-                        className="text-sm font-medium text-gray-600 line-through"
+                        className="font-medium text-gray-600 line-through"
                   />
                   {/* Regular price */}
                   <PriceFormate
                         amount={disCountPrice}
-                        className="text-gray-800 text-sm"
+                        className="text-gray-800"
                   />
             </div>
       );

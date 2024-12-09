@@ -9,6 +9,7 @@ import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 import RootLayout from './components/layout/RootLayout.jsx'
 import Home from './components/layout/Home.jsx'
+import Product from './components/cart/Product.jsx'
 
 
 const router = createBrowserRouter([{
@@ -30,6 +31,10 @@ const router = createBrowserRouter([{
     {
       path: "/contact",
       element: <Contact />
+    },
+    {
+      path: "/cart",
+      element: <Product />
     }
   ]
 }])

@@ -9,7 +9,7 @@ export const navLink = [
       },
       {
             title: 'Products',
-            path: '/products'
+            path: '/all'
       },
       {
             title: 'About',
@@ -21,7 +21,6 @@ export const navLink = [
       },
 
 ]
-
 export const popular = [
       {
             img: all,

@@ -1,6 +1,10 @@
 import bannerone from '../assets/bannerone.jpg'
 import bannertwo from '../assets/bannertwo.jpg'
+import bannerthree from '../assets/pfour.jpg'
+import bannerfour from '../assets/pone.jpg'
 import bannerfive from '../assets/bannerfive.jpg'
+import bannersix from '../assets/pthree.jpg'
+import bannerseven from '../assets/ptwo.jpg'
 import categoryone from '../assets/categoryone.png'
 import categorytwo from '../assets/categorytwo.webp'
 import categorythree from '../assets/categorythree.jpg'
@@ -15,11 +19,17 @@ import bannerimgthree from '../assets/featured2-min.jpg'
 import contact from '../assets/contact.jpg'
 import about from '../assets/man.jpg'
 import empty from '../assets/emptyCart.png'
+import productBannerOne from '../assets/productBannerOne.jpg'
+
 
 export {
       bannerone,
       bannertwo,
+      bannerthree,
+      bannerfour,
       bannerfive,
+      bannersix,
+      bannerseven,
       categoryone,
       categorytwo,
       categorythree,
@@ -33,5 +43,6 @@ export {
       all,
       contact,
       about,
-      empty
+      empty,
+      productBannerOne
 }

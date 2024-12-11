@@ -1,13 +1,15 @@
 
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
-import { bannerfive, bannerone, bannertwo } from "../assets"
+import { bannerfive, bannerfour, bannerone, bannerseven, bannersix, bannerthree, bannertwo } from "../assets"
 Autoplay.globalOptions = { delay: 5000 };
 
 const Banner = () => {
       const bannerImages = [
             { title: "bannerOne", source: bannerone },
-            { title: "bannerTwo", source: bannertwo },
+            { title: "bannersix", source: bannersix },
+            { title: "bannerthree", source: bannerthree },
+            { title: "bannerfour", source: bannerfour },
             { title: "bannerfive", source: bannerfive },
       ];
       const [emblaRef] = useEmblaCarousel({ loop: true, duration: 100 }, [

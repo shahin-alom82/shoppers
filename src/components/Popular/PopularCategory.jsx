@@ -3,7 +3,6 @@ import { popular } from "../constants";
 import Container from "../Container";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import PriceFormate from "../PriceFormate";
 import { FaStar } from "react-icons/fa";
 import AddToCartButton from "../AddToCartButton";
 import PriceContainer from "../PriceContainer";
@@ -45,13 +44,10 @@ const PopularCategory = () => {
                         <div className="grid grid-cols-2  md:grid-cols-2 lg:grid-cols-8 gap-5 mt-10">
                               {
                                     popular.map((item, index) => (
-
-
                                           <button key={index} onClick={() => setCategory(item.path)} className={`border border-gray-300 hover:border-lightOrange duration-300 cursor-pointer px-2 py-1 ${category === item?.path ? 'border-lightOrange' : ""}`}>
                                                 <img src={item?.img} alt="img" className="" />
                                                 <h1 className="text-center mt-2 text-gray-700 mb-1 hover:text-blue-600">{item?.title}</h1>
                                           </button>
-
                                     ))
                               }
                         </div>
@@ -73,7 +69,6 @@ const PopularCategory = () => {
                                                                   <PriceContainer className="mt-2" item={item} />
                                                                   {/* <PriceFormate  amount={item?.price} /> */}
                                                             </div>
-
                                                       </div>
                                                       <div className="flex items-center mt-2 absolute top-0 right-2">
                                                             {Array.from({ length: item.rating }, (index) => (

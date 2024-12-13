@@ -18,6 +18,8 @@ import PersonalCare from './components/ProductMenu/PersonalCare.jsx'
 import OrganicFood from './components/ProductMenu/OrganicFood.jsx'
 import Electric from './components/ProductMenu/Electric.jsx'
 import AllProducts from './components/ProductMenu/AllProducts.jsx'
+import Login from './components/Login.jsx'
+import Register from './components/Register.jsx'
 
 
 const router = createBrowserRouter([{
@@ -75,7 +77,16 @@ const router = createBrowserRouter([{
     {
       path: "/electric",
       element: <Electric />
-    }
+    },
+    {
+      path: "/login",
+      element: <Login />
+    },
+    {
+      path: "/register",
+      element: <Register />
+    },
+
 
   ]
 }])

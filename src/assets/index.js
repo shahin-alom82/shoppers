@@ -20,6 +20,11 @@ import contact from '../assets/contact.jpg'
 import about from '../assets/man.jpg'
 import empty from '../assets/emptyCart.png'
 import productBannerOne from '../assets/productBannerOne.jpg'
+import mobile from '../assets/mobile.png'
+import tavlate from '../assets/tavlate.png'
+import laptop from '../assets/laptop.png'
+import play from '../assets/play.png'
+import app from '../assets/app.png'
 
 
 export {
@@ -44,5 +49,10 @@ export {
       contact,
       about,
       empty,
-      productBannerOne
+      productBannerOne,
+      tavlate,
+      laptop,
+      mobile,
+      play,
+      app
 }

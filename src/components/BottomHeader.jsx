@@ -52,7 +52,7 @@ const BottomHeader = () => {
         {isDropdownOpen && (
           <div
             ref={dropdownRef}
-            className="absolute lg:top-[35px] top-[73px] lg:left-32 left-0 w-52 bg-slate-500 z-10 mt-2"
+            className="absolute lg:top-[35px] top-[73px] lg:left-32 left-0 w-52 bg-slate-700  mt-2"
           >
             {popular.map((item, index) => (
               <Link

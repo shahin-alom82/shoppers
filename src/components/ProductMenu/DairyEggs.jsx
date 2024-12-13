@@ -4,7 +4,6 @@ import MapProduct from "./MapProduct";
 
 const DairyEggs = () => {
       const [products, setProducts] = useState([]);
-
       useEffect(() => {
             const fetchData = async () => {
                   try {
@@ -16,10 +15,8 @@ const DairyEggs = () => {
                         console.error("Error fetching products", error);
                   }
             };
-
             fetchData();
       }, []);
-
       return (
             <div className="mb-10">
                   <Container>

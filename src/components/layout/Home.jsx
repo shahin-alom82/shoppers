@@ -1,5 +1,7 @@
 import Banner from "../Banner";
 import BottomBanner from "../BottomBanner";
+import Client from "../Client";
+import MobileTabletDesign from "../MobileTavlateDesign";
 import PopularCategory from "../Popular/PopularCategory";
 
 const Home = () => {
@@ -8,6 +10,8 @@ const Home = () => {
                   <Banner />
                   <BottomBanner />
                   <PopularCategory />
+                  <MobileTabletDesign />
+                  <Client />
             </div>
       );
 };

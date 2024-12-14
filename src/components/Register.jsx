@@ -20,13 +20,8 @@ const Register = () => {
 
       // Token Checked
       const navigate = useNavigate();
-      const token = localStorage.getItem("token")
-      useEffect(() => {
-            if (token) {
-                  
-            }
-      }, [token])
-
+//       const token = localStorage.getItem("token")
+//   console.log('token')
 
       const handleName = (e) => {
             setClientName(e.target.value)

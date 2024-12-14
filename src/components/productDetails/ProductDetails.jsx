@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { IoCheckmarkSharp } from "react-icons/io5";
 import Container from "../Container";
@@ -11,6 +11,14 @@ const ProductDetails = () => {
       const [product, setProduct] = useState(null);
       const [loading, setLoading] = useState(true);
 
+      // const token = localStorage.getItem('token')
+      // const navigate = useNavigate()
+      // useEffect(() => {
+      //       if (!token) {
+      //             navigate("/")
+      //       }
+      // }, [token])
+      
       useEffect(() => {
             const fetchProduct = async () => {
                   try {

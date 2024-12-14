@@ -12,25 +12,22 @@ const Login = () => {
       const [password, setPassword] = useState("")
       const [loading, setLoading] = useState(false)
 
+
+      
       // Error State
       const [errEmail, setErrEmail] = useState("")
       const [errPassword, setErrPassword] = useState("")
+
 
 
       // Token Checked
       const navigate = useNavigate();
       const token = localStorage.getItem("token")
 
-      useEffect(() => {
-            if (token) {
-                  // navigate("/")
-            }
-      }, [token])
-
+ 
       const handleEmail = (e) => {
             setEmail(e.target.value)
             setErrEmail("")
-
       }
       const handlePassword = async (e) => {
             setPassword(e.target.value)
@@ -51,7 +48,6 @@ const Login = () => {
             if (email && password) {
                   try {
                         setLoading(true)
-
                         const res = await axios.post(`${serverUrl}/api/user/login`, {
                               email,
                               password

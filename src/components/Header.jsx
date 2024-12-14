@@ -7,11 +7,17 @@ import { BsCartCheck } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import BottomHeader from "./BottomHeader";
 import { useSelector } from "react-redux";
-import LogOut from "./Logout";
+import toast from "react-hot-toast";
 
 const Header = () => {
       const { products } = useSelector((state) => state.shop)
       const token = localStorage.getItem('token')
+      const handleLogout = () => {
+            localStorage.removeItem('token');
+            toast.success('Log out Successfully!')
+            navigate("/")
+      }
+
       return (
             <div className="sticky z-50 top-0 bg-white">
                   <header className="border-b border-gray-300 py-5 ">
@@ -35,7 +41,9 @@ const Header = () => {
                                                 <h1 className="lg:text-[16px] text-sm">Hello, Guest</h1>
                                                 {
                                                       token ? (
-                                                            <LogOut />
+                                                            <button onClick={handleLogout}>
+                                                                  Logout
+                                                            </button>
                                                       ) :
                                                             (
                                                                   <h1 className="lg:text-[14px] text-xs">Login / Register</h1>

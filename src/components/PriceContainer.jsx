@@ -17,7 +17,6 @@ const PriceContainer = ({ item, className }) => {
       const disCountPrice = cartProduct
             ? cartProduct?.quantity * item?.price
             : item?.price;
-
       const regularPrice = cartProduct ?
             item.price * cartProduct.quantity + (item?.discountPercentage * (item?.price * cartProduct?.quantity)) / 100
             :

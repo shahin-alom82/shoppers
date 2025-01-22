@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { IoCheckmarkSharp } from "react-icons/io5";
 import Container from "../Container";
@@ -18,7 +18,7 @@ const ProductDetails = () => {
       //             navigate("/")
       //       }
       // }, [token])
-      
+
       useEffect(() => {
             const fetchProduct = async () => {
                   try {
